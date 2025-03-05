@@ -86,9 +86,9 @@ layers:
   - '&mkp MB4'
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - PG UP
-  - END
-  - $$mdi:arrow-up-bold$$
+  - PgDn
   - HOME
+  - END
   - {t: '-', s: _}
   - {t: '=', s: +}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -98,8 +98,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - '&mkp MB5'
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
-  - PG DN
-  - $$mdi:arrow-left-bold$$
+  - {t: '[', s: '{'}
+  - {t: ']', s: '}'}
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
   - $$mdi:arrow-up-bold$$
